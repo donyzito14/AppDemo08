@@ -14,7 +14,7 @@ public class Boleta extends Comprobante {
         Item[] doc = new Item[3];
         //asignar valores al objeto doc
         doc[0] = new Item("Total : ",total);
-        doc[1] = new Item("Servicio(10%) : ",servicio);
+        doc[1] = new Item("Servicio(20%) : ",servicio);
         doc[2] = new Item("Total general : ",totalgeneral);
         return doc;        
     }
